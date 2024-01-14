@@ -1,0 +1,8 @@
+FastApi/data/
+
+FastApi/router.py
+FastApi/.DS_Store
+
+**/.idea/
+**/__pycache__/
+**/.DS_Store/
