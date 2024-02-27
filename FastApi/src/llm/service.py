@@ -1,7 +1,8 @@
 from src.llm.schemas import LLMItem
 
+
 def predict_llm(request, engine):
-    '''
+    """
     Returns LLM reply
 
         Params:
@@ -9,7 +10,7 @@ def predict_llm(request, engine):
                 engine (RetrieverQueryEngine): LLm engine
 
         Returns: final_query (LLMItem): request query with response
-    '''
+    """
     response = engine.query(request.query)
     final_obj = LLMItem(query=response.response)
 

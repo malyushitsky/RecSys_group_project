@@ -1,12 +1,13 @@
-
-
 import unittest
 import sys
-sys.path.append('..')
-from Telegram_bot.utils.filters import check_query  # Assume your function is in your_module.py
+
+sys.path.append("..")
+from Telegram_bot.utils.filters import (  # noqa: E402
+    check_query,
+)  # Assume your function is in your_module.py
+
 
 class TestCheckQuery(unittest.TestCase):
-
     def test_valid_queries(self):
         self.assertTrue(check_query("Hello, world"))
         self.assertTrue(check_query("123,good day."))
@@ -38,10 +39,10 @@ class TestCheckQuery(unittest.TestCase):
         text_101 = "a" * 101  # Too long
         self.assertFalse(check_query(text_101))
 
+
 # check_query("123, good day.")
 
 if __name__ == "__main__":
-    print('---$#^$#---')
+    print("---$#^$#---")
     print(check_query("Hello, world"))
     unittest.main()
-
