@@ -73,16 +73,16 @@
 
 # Примеры использования сервиса
 <p align="center">
-  <img src="./images/Screenshot_1.png" width="300"/>
-  <img src="./images/Screenshot_2.png" width="300"/>
-  <img src="./images/Screenshot_3.png" width="300"/>
+  <img src="./images/Screenshot_1.png" width="240"/>
+  <img src="./images/Screenshot_2.png" width="240"/>
+  <img src="./images/Screenshot_3.png" width="240"/>
 </p>
 <p style="margin-bottom: 160px; font-size: 12px;"align="center">Примеры запроса к LLM для получения рекомендации<br><br><br></p>
 
 <p align="center">
-  <img src="./images/Screenshot_4.png" width="300"/>
-  <img src="./images/Screenshot_5.png" width="300"/>
-  <img src="./images/Screenshot_6.png" width="300"/>
+  <img src="./images/Screenshot_4.png" width="240"/>
+  <img src="./images/Screenshot_5.png" width="240"/>
+  <img src="./images/Screenshot_6.png" width="240"/>
 </p>
 <p style="margin-bottom: 60px; font-size: 12px;"align="center">1. Без использования LLM (запрос к векторной базе)<br>2. С использованием LLM<br>3. С использованием LLM (модель сама понимает, что интересны фильмы не из той же серии)</p>
 
