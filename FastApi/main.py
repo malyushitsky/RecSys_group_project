@@ -97,7 +97,7 @@ async def top_box_office(n: int) -> QueryResponseBoxOffice:
 
     result = get_top_n_box_office_films(n)
 
-    await app.state.redis.set(cache_key, json.dumps(result.dict()), expire=3600)
+    await app.state.redis.set(cache_key, json.dumps(result.model_dump()), expire=3600)
 
     return result
 @app.post("/llm")

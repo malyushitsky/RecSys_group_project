@@ -19,13 +19,13 @@ def box_office_validate(input_dct):
                 dct_new[key] = "No data"
         # Movie_release_date_year
         if key == "Movie_release_date_year":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"
         # Movie_box_office_revenue
         if key == "Movie_box_office_revenue":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"
@@ -47,19 +47,19 @@ def film_validate(input_dct):
                 dct_new[key] = "No data"
         # Movie_release_date_year
         if key == "Movie_release_date_year":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"
         # Movie_runtime
         if key == "Movie_runtime":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"
         # Movie_box_office_revenue
         if key == "Movie_box_office_revenue":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"

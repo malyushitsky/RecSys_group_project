@@ -24,7 +24,7 @@ def preprocess_response(response, text):
                 dct_new[key] = "No data"
         # Movie_runtime
         if key == "Movie_runtime":
-            if isinstance(dct[key], int | float) and not isNAN(dct[key]):
+            if (isinstance(dct[key], float) or isinstance(dct[key], int)) and not isNAN(dct[key]):
                 dct_new[key] = int(dct[key])
             else:
                 dct_new[key] = "No data"
