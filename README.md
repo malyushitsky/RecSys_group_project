@@ -81,17 +81,17 @@
 
 <div align="center">
   <div style="display: inline-block; text-align: center;">
-    <img src="./images/Screenshot_4.png" width="240"/>
+    <img src="./images/Screenshot_4.png" width="230"/>
     <p style="font-size: 14px;">Без использования LLM<br> 
 (запрос к векторной базе)<br><br>
 </p>
   </div>
   <div style="display: inline-block; text-align: center;">
-    <img src="./images/Screenshot_4.png" width="240"/>
+    <img src="./images/Screenshot_4.png" width="230"/>
     <p style="font-size: 14px;">С использованием LLM<br><br><br> </p>
   </div>
   <div style="display: inline-block; text-align: center">
-    <img src="./images/Screenshot_4.png" width="240"/>
+    <img src="./images/Screenshot_4.png" width="230"/>
     <p style="font-size: 14px;">С использованием LLM (модель<br> сама понимает, что интересны<br> фильмы не из той же серии)</p>
   </div>
 </div>
